@@ -1,0 +1,166 @@
+html, body{
+/*  margin: 0; 
+    padding: 0; */
+    height: 100%;
+    background: #FFF url(img/body.jpg); }
+
+/*  body { background: #FFF; text-align: center; 
+   font: small Verdana, Arial, Helvetica, sans-serif; } */
+
+#wrap-all {
+    background: #E5E5E5;
+    border: 1px solid #999;  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px; }
+
+.link a { text-decoration: none; color: #980000; }
+.link a:hover { text-decoration: underline; }
+
+/*
+ * header
+ */
+#header {
+/*  margin-top: 35px; */
+    padding: 0 0 15px 0; 
+    border: 1px solid #980000; 
+    border-width: 0 0 1px 40px;
+    background: #B04A4A url(img/header_light.jpg) 100% 0 no-repeat; } 
+
+#header h1 {
+    margin: 0; 
+    padding: 50px 0 0 0;
+    color: #7B8285;
+    text-align: left; 
+    font: bold 2.5em/0.75em Arial, Verdana, sans-serif; 
+    background: #980000 url(img/header.jpg) 100% 0 no-repeat; }
+/*
+ * content
+ */
+#content {
+    position: relative;
+    float: left;
+/*  width: 600px; */
+    background: #E5E5E5;
+    text-align: left; /*position: relative;*/ }
+#content p {
+    padding: 5px 60px; }
+#content p#last {
+    margin-bottom: 90px; }
+#content p#form_ok {
+    padding: 30px 0 350px 40px; }
+#content p#form_error {
+    padding: 20px 0 0 40px; }
+#content img {
+    margin: 0 0 20px 75px;
+    padding: 3px;
+    border: 1px solid #fff; }
+#content img#last {
+    margin-bottom: 90px; }
+#content img#back_img {
+    margin: 0;
+    position: absolute;
+    top: 75px;
+    left: 230px;
+    border: none; }
+#content p.desc_img {
+    font-size: 85%;
+    margin: 70px 0 0 20px; }
+#content h1 {
+    margin: 0;
+    padding: 57px 0 0 40px;
+    font-size: 145%; }
+#content span.small {
+    font-size: 80%;
+    font-weight: normal;
+    padding-left: 15px;}
+#content h2 {
+    margin: 0 0 0 30px;
+    padding: 20px 0 0 10px;
+    font-size: 105%;  
+    border-bottom: 1px solid #fff; }
+#content h2.kontakt {
+    padding-top: 105px; }
+#content ul {
+    margin: 0;
+    padding: 7px 0 0 30px;
+    list-style: none;
+    font-size: 100%; }
+#content ul ul {
+    padding: 0 0 0 20px; }
+#content li {
+/*  margin: 0; */
+/*  padding: 7px 0 0 0; */ }
+#content li#space_bottom {
+    padding-bottom: 50px; }
+#content h2#formular {
+    padding-top: 75px; }
+#content p#required {
+    font-size: 80%;
+    padding: 10px 0 10px 43px; }
+#content span.asterisk {
+    font-size: 110%;
+    color: red; }
+#content input.txt {
+    border: 1px inset gray;
+    width: 200px;
+    background-color: #FFF; }
+#content input.btn {
+    border: 1px outset gray;
+    margin-left: 25%;
+    margin-bottom: 15px; }
+#content form p {
+    clear: left;
+    margin-bottom: 10px;
+    font-size: 85%; }
+#content form p label {
+    float: left;
+    width: 20%;
+    padding-left: 43px;}
+#content textarea {
+    border: 1px inset gray;
+    width: 400px;
+    height: 100px;
+    background-color: #FFF; }
+/*
+ * sidebar
+ */
+#sidebar {
+    float: right;
+/*  width: 150px; */
+    padding-top: 60px; } 
+#sidebar h3 {
+    margin: 0 40px 0 5px;
+    padding: 20px 0 1px 5px;
+    font-size: 100%;
+    color: #000;
+    text-align: left;
+    border-bottom: 1px solid black; }
+#sidebar ul {
+    margin: 0 40px 0 5px;
+    padding: 0;
+    text-align: left;
+    list-style: none; }
+#sidebar li {
+    padding: 5px 0 1px 5px;
+    border-bottom: 1px solid #FFF; }
+/*
+ * footer
+ */
+#footer {  
+   background: #fff;
+   border-top: 1px solid #000; }
+#footer p {
+    text-align: center;
+    font-size: 0.75em; }
+#clearfooter { 
+    clear: both; 
+    width: 100% }
+#footer a { 
+    text-decoration: none;
+    color: #000; }
+#footer a:hover { 
+    text-decoration: none;
+    color: #000; }
+   
+div>p { margin: 0 } 
